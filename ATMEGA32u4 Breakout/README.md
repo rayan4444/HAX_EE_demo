@@ -15,7 +15,7 @@ If you don't know how to order PCBs, check out the HAX Wiki: [making a PCB (prot
 * PWM pins breakout x 4
 * Programmable LED (on digital pin 13)
 * Digital I/O breakout x 4 with optional MOSFETs:
- * solder a 0 \Omega resistor where designated to use standard digital output
+ * solder a 0 ohm resistor where designated to use standard digital output
  * solder N-MOSFET circuitry to use it to toggle higher voltage outputs
 * Optional High voltage input (for the N-MOSFET outputs)
 
