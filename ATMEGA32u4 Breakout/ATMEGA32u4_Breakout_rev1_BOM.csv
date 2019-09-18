@@ -1,0 +1,35 @@
+ATMEGA32u4 Breakout v1 BOM,,,,,,,,,
+,,,,,,,,,
+#,Parts,Value,Qty,Device,Package,Description,Link,Price @1unit (RMB),Price (total)
+1,"C1, C5",22pF,2,C0603,C0603,Ceramic Capacitor,Any will Do. Capacitors rated at 16V or more,0.01,0.02
+2,"C2, C4, C7, C11, C12, C14, C15, C16, C18, C19, C20",100nF,11,C0603,C0603,Ceramic Capacitor,Any will Do. Capacitors rated at 16V or more,0.01,0.11
+3,C9,100nF,1,C1206,C1206,Ceramic Capacitor,Any will Do. Capacitors rated at 16V or more,0.01,0.01
+4,"C6, C8",1uF,2,C0603,C0603,Ceramic Capacitor,Any will Do. Capacitors rated at 16V or more,0.01,0.02
+5,C13,10uF,1,C0603,C0603,Ceramic Capacitor,Any will Do. Capacitors rated at 16V or more,0.01,0.01
+6,C17,10uF,1,C1206,C1206,Ceramic Capacitor,Any will Do. Capacitors rated at 16V or more,0.01,0.01
+7,"C3, C10",22uF,2,C1206,C1206,Ceramic Capacitor,Any will Do. Capacitors rated at 16V or more,0.01,0.02
+8,"R1, R4, R10, R11, R12, R13, R14, R15, R19, R24, R29, R32",10k,12,R0603,R0603,Resistor,Any will Do. Capacitors rated at 16V or more,0.01,0.12
+9,"R21, R25, R30, R33",10R,4,R0603,R0603,Resistor,Any will Do. Capacitors rated at 16V or more,0.01,0.04
+10,"R5, R7",22R,2,R0603,R0603,Resistor,Any will Do. Capacitors rated at 16V or more,0.01,0.02
+11,R17,120R,1,R0603,R0603,Resistor,Any will Do. Capacitors rated at 16V or more,0.01,0.01
+12,"R6, R8, R9, R20",1K,4,R0603,R0603,Resistor,Any will Do. Capacitors rated at 16V or more,0.01,0.04
+13,"R16, R18",20K,2,R0603,R0603,Resistor,Any will Do. Capacitors rated at 16V or more,0.01,0.02
+14,"R23, R28, R31, R34",DNP or 0R,4,R0603,R0603,Resistor,Any will Do. Capacitors rated at 16V or more,0.01,0.04
+15,U1,ATMEGA32U4-XUAU,1,ATMEGA32U4-XUAU,TQFP44-PAD,,https://item.szlcsc.com/45856.html,22,22
+16,D1,CD1206-S01575,1,DIODE-MINIMELF,MINIMELF,Diode,https://item.szlcsc.com/76589.html,0.18,0.18
+17,"R2, R3",CG0603MLC-05E,2,VARISTORCN0603,CT/CN0603,Varistor,https://detail.tmall.com/item.htm?id=521729654981,0.3,0.6
+18,"T1, T2",PMV48XP,2,PMOSSOT23,SOT-23,P channel MOSFET,https://item.szlcsc.com/76685.html,0.5,1
+19,"U4, U6, U8, U9",IRLHM630TRPBF,4,IRLHM630TRPBF,IRLHM630TRPBF,N-channel MOSFET,https://item.szlcsc.com/159472.html,2.9,11.6
+20,U3,MAX485,1,MAX485,SO08,RS-485 transciever,https://item.szlcsc.com/10480.html,4.63,4.63
+21,F1,MF-MSMF050-2 500mA,1,F1812,F1812,PTC Resettable Fuse 500mA,https://item.szlcsc.com/17998.html,0.2,0.2
+22,L2,MH2029-300Y,1,L0805,L0805,SMD EMI Suppression Ferrite Beads,https://detail.tmall.com/item.htm?id=580788207924,0.19,0.19
+23,U2,NCP1117-5,1,LINEAR_MC33269ST,SOT223,Adjustable Output Low Dropout Voltage Regulator 800 mA,https://item.szlcsc.com/17999.html,1.02,1.02
+24,SW1,EVQQ2,1,SPST_TACT-EVQQ2,EVQ-Q2,"SMT 6mm switch, EVQQ2 series",https://item.szlcsc.com/375651.html,0.9,0.9
+25,ON,blue,1,CHIPLED0805,CHIPLED0805,LED,https://item.taobao.com/item.htm?id=534472503254,0.02,0.02
+26,LED,red,1,CHIPLED0805,CHIPLED0805,LED,,0.02,0.02
+27,"RX, TX",yellow,2,CHIPLED0805,CHIPLED0805,LED,,0.02,0.04
+28,X1,16MHz (X322516MLB4SI),1,CRYSTAL-3.2-2.5,X322516MLB4SI,16MHz Crystal Oscillator,https://item.szlcsc.com/14393.html,0.6,0.6
+29,J6,2P - 3.5MM ,1,CONN_023.5MM,SCREWTERMINAL-3.5MM-2,3.5mm 2P terminal block,https://item.taobao.com/item.htm?spm=a230r.1.14.11.63ca5f28QQAd6L&id=554831261833&ns=1&abbucket=6#detail,0.2,0.2
+30,X7,U254-051N-4BHJ233-S,1,USB_MICRO_20329,U254-051N-4BHJ233-S,Micro USB type B Socket,https://item.szlcsc.com/300259.html,0.3,0.3
+31,"X2, X3, X4, X5, X6, X8",JST-XH-02,6,JST-XH-02,JST-XH-02,JST XH Connector 2 Pin,https://item.szlcsc.com/169360.html,0.26,1.56
+Total,,,77,Total ,,,,,45.55
